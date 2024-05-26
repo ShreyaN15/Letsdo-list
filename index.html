@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Todo_list</title>
+  <link href="style.css" rel="stylesheet" >
+</head>
+
+<body>
+  <h1>Complete All your tasks In an organized way</h1>
+  <h2>Choose your Theme colour</h2>
+
+    <button id="red" onclick="setcolour('red')">Red</button>
+    <button id="green" onclick="setcolour('green')">Green</button>
+    <button id="blue" onclick="setcolour('blue')">Blue</button>
+    <button onclick="randcolour()">Random</button>
+   
+  <main>
+   
+    <section class="grid">
+      <a class='card'>
+        <h2>*Stop Watch*</h2>
+        <h1 id="time">00:00:00</h1>
+        <br>
+        <button onclick="startclock()">Start</button>
+        <button onclick="stopclock()">Stop</button>
+        <button onclick="resetclock()">Reset</button>
+        
+      </a>
+
+      <a class='card'>
+        <h1>TO DO LIST</h1>
+        <h2>Items</h2>
+        <div id="items"></div>
+        <input type="text" id="iteminput" placeholder="Enter item">
+        <button onclick="additem()">Add</button>
+        
+        
+      </a>
+    </section>
+  </main>
+
+  <script  src="script.js"></script>
+
+</body>
+
+</html>

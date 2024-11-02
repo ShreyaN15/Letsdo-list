@@ -1,4 +1,11 @@
-# Todo list
+# Letsdo List 
+This project is created for organizing tasks but in a fun and motivating way
+
+A platform where you enter and you get to set whichever background you like and these bacgrounds can be gradients as well as normal solid colours 
+You can add your tasks and then delete them as you complete it even if you close the website when you reopen it you will still get to see the pending tasks
+You have timer alongside to keep a track of time for each task and to take breaks
+You need motivation ?? Yesss for that a random quote generator is already there
+
 
 https://github.com/user-attachments/assets/202aac3f-4174-419b-8229-44fdb5f2819c
 
@@ -9,7 +16,3 @@ https://github.com/user-attachments/assets/202aac3f-4174-419b-8229-44fdb5f2819c
 
 
 
-https://github.com/ShreyaN15/mini-project-Todo-list-with-timer/assets/119808754/9d53a05d-952f-4e08-9c98-ab8f69283eac
-
-![Screenshot (225)](https://github.com/ShreyaN15/mini-project-Todo-list-with-timer/assets/119808754/521c9f68-4b05-4828-872a-a221346f77eb)
-![Screenshot (227)](https://github.com/ShreyaN15/mini-project-Todo-list-with-timer/assets/119808754/24786933-4853-4f7e-844b-21b91a53e462)

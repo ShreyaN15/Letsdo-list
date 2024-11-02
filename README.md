@@ -12,9 +12,9 @@ You can add your tasks and then delete them as you complete it even if you close
 You have timer alongside to keep a track of time for each task and to take breaks
 You need motivation ?? Yesss for that a random quote generator is already there
 # The Problem 
-Procastinators and lazy people often find it hard to do tasks on time because they find the jobs pretty boring to do or feel like its too easy and can be done later on without realising the importance of time thus their tasks get accumulated day by day.
+Procrastinators and lazy people often find it hard to do tasks on time because they find the jobs pretty boring to do or feel like its too easy and can be done later on without realising the importance of time thus their tasks get accumulated day by day.
 # The Solution 
-This project organizes work for procastinators and lazy people who might find using this website as a fun tool to complete their task
+This project organizes work for procrastinators and lazy people who might find using this website as a fun tool to complete their task
 
 # Technical details
 HTML

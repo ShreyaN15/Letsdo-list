@@ -53,31 +53,32 @@ main {
   border-color: #0070f3;
 }
 
-button{
+
+button {
   background-color: #e6d1d9;
   color: inherit;
   border: none;
-  padding: 10px;
-  /* border-radius: 10px; */
-  font-size: 16px;
- /* margin: 10px; */
+  padding: 15px 20px; /* Increased padding for larger buttons */
+  font-size: 18px; /* Increased font size */
   margin: 5px;
-  height:40px ;
-  width: 80px;
+  height: auto; /* Allow height to adjust based on content */
+  width: auto; /* Allow width to adjust based on content */
   border-radius: 40px;
+  text-align: center; /* Center text */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-#red{
+button:hover {
+  background-color: #d1b3c4; /* Change color on hover for better UX */
+}
+
+
+#grad{
   text-align: center;
-  background-color: red;
+  background-color: rgb(232, 184, 184);
 
 }
-#green{
-  background-color: green;
-}
-#blue{
-  background-color: blue;
-}
+
 body{
   text-align: center;
 }

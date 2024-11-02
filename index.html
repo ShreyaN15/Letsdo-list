@@ -9,13 +9,15 @@
 
 <body>
   <h1>Complete All your tasks In an organized way</h1>
+ 
   <h2>Choose your Theme colour</h2>
 
-    <button id="red" onclick="setcolour('red')">Red</button>
+    <!-- <button id="red" onclick="setcolour('red')">Red</button>
     <button id="green" onclick="setcolour('green')">Green</button>
-    <button id="blue" onclick="setcolour('blue')">Blue</button>
-    <button onclick="randcolour()">Random</button>
+    <button id="blue" onclick="setcolour('blue')">Blue</button> -->
+    <button id="grad" onclick="randGradient()">switch background</button>
    
+    <input type="file" id="bgImageInput" accept="image/*" onchange="setBackgroundImage(event)">
   <main>
    
     <section class="grid">
@@ -35,13 +37,19 @@
         <div id="items"></div>
         <input type="text" id="iteminput" placeholder="Enter item">
         <button onclick="additem()">Add</button>
-        
-        
       </a>
     </section>
+
+    <!-- New section for random quotes -->
+    <section class="quote-section">
+      <h2>Random Quote</h2>
+      <div id="quote"></div>
+      <button onclick="displayQuote()">New Quote</button> <!-- Button to change quote -->
+    </section>
+    
   </main>
 
-  <script  src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 
